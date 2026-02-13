@@ -9,9 +9,13 @@ body {
 
 /* Center main content */
 header,
-section,
-footer {
+section {
   max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+footer {
+  /* max-width: 900px; */
   margin: auto;
   padding: 20px;
 }
@@ -41,6 +45,14 @@ nav a {
 
 nav a:hover {
   opacity: 0.75;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ff9800;
 }
 
 /***********************  Footer Section   **************************/
@@ -199,6 +211,7 @@ section a:hover {
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
+  padding-bottom: 50px;
   margin: 12px 0;
 }
 
